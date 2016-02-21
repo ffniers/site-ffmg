@@ -24,13 +24,14 @@ GLUON_SITE_PACKAGES := \
         gluon-status-page \
         gluon-migrate-vpn \
         gluon-ssid-changer \
+	gluon-tunneldigger-watchdog \
         haveged \
         iptables \
         iwinfo
 
 GLUON_LANGS = en de
 
-DEFAULT_GLUON_RELEASE := 0.7.5
+DEFAULT_GLUON_RELEASE := 0.7.6
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
